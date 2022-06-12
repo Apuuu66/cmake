@@ -1,0 +1,2 @@
+D:\A\MinGW\bin\ar.exe qc libhello.a CMakeFiles/hello_static.dir/hello.cpp.obj
+D:\A\MinGW\bin\ranlib.exe libhello.a

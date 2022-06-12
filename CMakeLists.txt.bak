@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.22)
+#set(CMAKE_C_COMPILER D:/A/MinGW/bin/gcc)
+#set(CMAKE_CXX_COMPILER D:/A/MinGW/bin/g++)
+project(study_c)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SRC_LIST main.cpp)
+
+set(SRC_CUSTOM main.cpp t1.cpp t2.cpp)
+
+
+message(STATUS "This is BINARY dir " ${study_c_BINARY_DIR})
+message(STATUS "This is SOURCE dir "${study_c_SOURCE_DIR})
+message(STATUS "project dir" "${PROJECT_BINARY_DIR}")
+message(STATUS "project dir" "${PROJECT_SOURCE_DIR}")
+message(STATUS "project dir" "${SRC_CUSTOM}")
+add_executable(study_c ${SRC_LIST})
+
+
+# 在build下执行 rm -r *
+# cmake -G"MinGW Makefiles" ..
+
+
+vim "C:/Program Files/Git/etc/bash.bashrc"
+
+alias ls='ls -F --color=auto --show-control-chars'
+alias ll='ls -l'
+alias grep='grep --color'
+
+rm -r *
+cmake ..
+make
+
+
+#cmake -DCMAKE_INSTALL_PREFIX=/e/cmake_install ..
