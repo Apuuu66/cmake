@@ -1,4 +1,0 @@
-E:/cmake_install/share/doc/cmake/COPYRIGHT
-E:/cmake_install/share/doc/cmake/README
-E:/cmake_install/bin/runhello.sh
-E:/cmake_install/share/doc/cmake/hello.txt

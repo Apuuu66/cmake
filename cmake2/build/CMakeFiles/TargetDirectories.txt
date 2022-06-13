@@ -1,6 +1,0 @@
-E:/code/CLionProjects/study_c/cmake2/build/CMakeFiles/edit_cache.dir
-E:/code/CLionProjects/study_c/cmake2/build/CMakeFiles/rebuild_cache.dir
-E:/code/CLionProjects/study_c/cmake2/build/bin/CMakeFiles/hello_static.dir
-E:/code/CLionProjects/study_c/cmake2/build/bin/CMakeFiles/hello.dir
-E:/code/CLionProjects/study_c/cmake2/build/bin/CMakeFiles/edit_cache.dir
-E:/code/CLionProjects/study_c/cmake2/build/bin/CMakeFiles/rebuild_cache.dir

@@ -34,3 +34,8 @@ make
 
 
 #cmake -DCMAKE_INSTALL_PREFIX=/e/cmake_install ..
+
+rm -r *
+cmake -DCMAKE_INSTALL_PREFIX=/e/cmake_install ..
+make
+make install
