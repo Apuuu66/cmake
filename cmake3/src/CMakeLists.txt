@@ -5,7 +5,7 @@
 #设置搜索头文件路径位置
 include_directories(E:/cmake_install/include/hello)
 
-#link_libraries(E:/cmake_install/bin E:/cmake_install/lib)
+link_directories(E:/cmake_install/bin E:/cmake_install/lib)
 add_executable(main main.cpp)
 
-target_link_libraries(main E:/cmake_install/lib/libhello.a)
+target_link_libraries(main libhello.a)
